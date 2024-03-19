@@ -1,4 +1,41 @@
+body {
+  background-color: #d1c8c8;
+}
+.card > .list-group {
+  border-top: unset;
+}
+.list-group {
+  border: none;
+}
+.list-group-item {
+  width: 93%;
+  margin: 0 auto;
+  min-height: 50px;
+  padding: 16px 0;
+  border: none;
+}
 
+input {
+  width: 93%;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.card {
+  width: 50%;
+  margin-top: 30px;
+  border-radius: unset;
+  box-shadow: 0 10px 0 -5px #fff, 0 20px 0 -10px #fff;
+  background-color: #fff;
+}
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #fab9b9bb;
+}
 /* 
 
     You can write your own styles here...
